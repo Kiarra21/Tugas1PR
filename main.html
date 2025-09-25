@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfolio Kiarra</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- Menu Button -->
+  <button class="menu-btn" id="menuBtn" onclick="toggleSidebar()">
+    <div class="hamburger"></div>
+  </button>
+
+  <!-- Sidebar Overlay -->
+  <div class="sidebar-overlay" id="sidebarOverlay" onclick="closeSidebar()"></div>
+
+  <!-- Sidebar -->
+  <div class="sidebar" id="sidebar"></div>
+
+  <!-- Main Content -->
+  <main class="main-content" id="mainContent">
+    <div class="welcome-section">
+      <div class="welcome-card glass-effect">
+        <h1>Hello, I'm Kiarra!</h1>
+        <p>Select a menu from the sidebar to explore my portfolio</p>
+        <div class="welcome-decoration">
+          <div class="floating-element"></div>
+          <div class="floating-element"></div>
+          <div class="floating-element"></div>
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
